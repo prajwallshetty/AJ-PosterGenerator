@@ -34,7 +34,7 @@ const Index = () => {
                 <Palette className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-foreground">PosterGen</h1>
+                <h1 className="text-2xl font-bold text-foreground">ARTIFEX AI</h1>
                 <p className="text-sm text-muted-foreground">Professional Poster Creator</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Index = () => {
 
         {/* Instructions */}
         <Card className="mt-8 p-6 text-center bg-primary-soft border-primary/20">
-          <h3 className="text-lg font-semibold text-primary mb-2">How to Use PosterGen</h3>
+          <h3 className="text-lg font-semibold text-primary mb-2">How to Use Artifex AI</h3>
           <div className="grid md:grid-cols-3 gap-4 text-sm text-primary/80">
             <div>
               <strong>1. Fill Details</strong>
@@ -104,7 +104,7 @@ const Index = () => {
       <footer className="bg-white border-t border-border mt-16">
         <div className="container mx-auto px-4 py-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 PosterGen - Creating professional posters made easy
+            © 2024 Artifex AI - Creating professional posters made easy
           </p>
         </div>
       </footer>

@@ -54,9 +54,13 @@ export const PosterPreview = forwardRef<HTMLDivElement, PosterPreviewProps>(
           {/* Institution Header */}
           <div className="bg-white text-gray-800 p-6 text-center border-b-4 border-blue-600">
             <div className="flex items-center justify-center mb-2">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center mr-4">
-                <span className="text-white font-bold text-xl">AJ</span>
-              </div>
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mr-4  p-2">
+                  <img 
+                    src="/ajlogo.jpeg" 
+                    alt="AJ Institute Logo" 
+                    className="w-12 h-12 object-contain"
+                  />
+                </div>
               <div className="text-left">
                 <h1 className="text-lg font-bold text-blue-800 uppercase">
                   AJ INSTITUTE OF ENGINEERING AND TECHNOLOGY

@@ -20,3 +20,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Prajwallshetty/AJ-PosterGeneratorr.git
+
+### 2. Install Modules
+```bash
+npm install

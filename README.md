@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 ### Your app will now be running at:
-👉 http://localhost:3000
+👉 http://localhost:8000
 
 ## 📂 Project Structure
 ```bash
@@ -48,7 +48,7 @@ poster-template-generator/
 ---
 ### 🛠️ Tech Stack
 
-⚡ React / Next.js – Frontend framework
+⚡ Vite – Frontend framework
 
 🎨 Tailwind CSS – Styling
 

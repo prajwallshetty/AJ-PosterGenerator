@@ -115,7 +115,7 @@ export const PosterPreview = forwardRef<HTMLDivElement, PosterPreviewProps>(
                     Resource Person
                   </p>
                   <h2 className="text-xl font-bold mb-1">
-                    {data.resourcePersonName || "Dr. Chancha Antony"}
+                    {data.resourcePersonName || "Dr. Chanchal Antony"}
                   </h2>
                   <p className="text-base font-semibold">
                     {data.designation || "HOD, CSE-AIML."}

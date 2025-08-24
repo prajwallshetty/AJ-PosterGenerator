@@ -55,7 +55,6 @@ poster-template-generator/
 🖼️ HTML5 Canvas – For rendering posters
 
 🛠️ Node.js & npm – Package manager
----
 
 ### 📜 License
 

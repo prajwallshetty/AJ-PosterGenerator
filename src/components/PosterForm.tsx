@@ -16,6 +16,7 @@ export interface PosterData {
   image?: string;
   department?: string;
   specialization?: string;
+  background?: string;
 }
 
 interface PosterFormProps {
@@ -175,6 +176,33 @@ export const PosterForm = ({ onDataChange, initialData }: PosterFormProps) => {
             />
           </div>
         </form>
+
+        <div className="space-y-2">
+          <Label htmlFor="background">Background</Label>
+            <select
+              id="background"
+              {...register("background")}
+              onChange={(e) => handleFieldChange("background", e.target.value)}
+              className="border rounded-md p-2 w-full"
+            >
+              <option value="bg-gradient-to-br from-blue-50 to-indigo-100">
+                Default
+              </option>
+              <option value="bg-[url('/bg1.jpg')] bg-cover bg-center">
+                Background 1
+              </option>
+              <option value="bg-[url('/bg2.jpg')] bg-cover bg-center">
+                Background 2
+              </option>
+              <option value="bg-[url('/bg3.jpg')] bg-cover bg-center">
+                Background 3
+              </option>
+              <option value="bg-[url('/bg4.jpg')] bg-cover bg-center">
+                Background 4
+              </option>
+            </select>
+          </div>
+
       </div>
     </Card>
   );

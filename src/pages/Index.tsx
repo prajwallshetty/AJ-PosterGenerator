@@ -9,13 +9,8 @@ const Index = () => {
   const posterRef = useRef<HTMLDivElement>(null);
   
   const [posterData, setPosterData] = useState<PosterData>({
-    title: "From AI Agents to Agentic AI: Evolution, Opportunities, and Challenges of Intelligent Systems",
     date: "2025-08-23",
     time: "10:00",
-    venue: "A 423",
-    resourcePersonName: "Mrs.Jamuna K M",
-    designation: "Assistant Professor, CSE-ICB.",
-    department: "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING",
     image: undefined,
   });
 
@@ -104,7 +99,7 @@ const Index = () => {
       <footer className="bg-white border-t border-border mt-16">
         <div className="container mx-auto px-4 py-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Artifex AI - Creating professional posters made easy
+            © 2025 Artifex AI - Developed by Prajwal shetty
           </p>
         </div>
       </footer>
